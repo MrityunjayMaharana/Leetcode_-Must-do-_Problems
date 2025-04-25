@@ -21,7 +21,9 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    
+    vector<int> heights = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+    int result = maxArea(heights);
+    cout << "Maximum water area: " << result << endl;
 
     return 0;
 }
